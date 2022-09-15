@@ -1,0 +1,50 @@
+*
+  box-sizing: border-box
+  
+  body
+//+ reg
+img 
+  max-width: 100%
+.container
+  width: 1170px
+  margin: auto
+  // border: 2px red solid
+@media (max-width: 1200px)
+  .container
+    width: 760px
+@media (max-width: 768px)
+  .container
+    max-width: 580px
+    width: 90%
+    
+.button
+  border-radius: 10px
+  background-color: $main-color
+  border: none
+  padding: 18px 30px
+  &:hover
+    background-color: darken($main-color, 10%)
+    cursor: pointer
+  &:focus
+    outline: none
+  // &:active
+  //   background-color: darken($main-color, 20%)
+
+.section
+  padding: 90px
+  text-align: center
+  &-title
+    font-size: 24px
+  &-subtitle
+    display: block
+    font-size: 16px
+
+.input
+  border: 1px solid $border-input
+  padding: 15px 26px
+  font-size: 15px
+  border-radius: 10px
+.arrows
+  &__left, &__right
+    &:hover
+      cursor: pointer
