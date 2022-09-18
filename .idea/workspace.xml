@@ -34,6 +34,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -59,14 +65,18 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="158" y="127" width="1662" height="853" key="DiffContextDialog" timestamp="1663251832739">
+      <screen x="58" y="27" width="1862" height="1053" />
+    </state>
+    <state x="158" y="127" width="1662" height="853" key="DiffContextDialog/58.27.1862.1053@58.27.1862.1053" timestamp="1663251832739" />
     <state x="772" y="311" width="447" height="491" key="FileChooserDialogImpl" timestamp="1663246451907">
       <screen x="58" y="27" width="1862" height="1053" />
     </state>
     <state x="772" y="311" width="447" height="491" key="FileChooserDialogImpl/58.27.1862.1053@58.27.1862.1053" timestamp="1663246451907" />
-    <state x="584" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1663248609881">
+    <state x="584" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1663251658209">
       <screen x="58" y="27" width="1862" height="1053" />
     </state>
-    <state x="584" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/58.27.1862.1053@58.27.1862.1053" timestamp="1663248609881" />
+    <state x="584" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/58.27.1862.1053@58.27.1862.1053" timestamp="1663251658209" />
     <state x="645" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1663245397242">
       <screen x="58" y="27" width="1862" height="1053" />
     </state>

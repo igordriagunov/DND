@@ -48,7 +48,7 @@ img {
   padding: 90px;
   text-align: center;
   background-color: snow;
-  
+
 }
 
 .section-title {
@@ -467,9 +467,10 @@ img {
 
 .step {
   -ms-flex-preferred-size: 20%;
-      flex-basis: 20%;
+      flex-basis: 33%;
   text-align: center;
   position: relative;
+  margin-bottom: 50px;
 }
 
 /*.step:after {*/
