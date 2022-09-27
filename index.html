@@ -2,234 +2,491 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="./src/css/normalize.css">
-  <link rel="stylesheet" href="./src/css/slick.css">
-  <link rel="stylesheet" href="./src/css/style.css">
-  <link rel="stylesheet" href="./src/css/animate.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <title>Юридические услуги для иностранных граждан и компаний в Грузии и ОАЭ</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./src/css/normalize.css">
+    <link rel="stylesheet" href="./src/css/slick.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/animate.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Юридические услуги для эмигрантов в Грузии</title>
 </head>
 
 <body>
-  <nav class="navbar">
+<div class="navbar">
     <div class="container">
-      <div class="navbar-block">
-        <div class="navbar__logo">
-          <img src="src/img/dndlogo.png" alt="DND-logo">
+        <div class="navbar-links">
+            <h1>D&D</h1>
+            <a href="#main" class="navbar-links__link">Главная</a>
+            <a href="#service" class="navbar-links__link">Услуги</a>
+            <a href="#licenses" class="navbar-links__link">Лицензии</a>
         </div>
-        <!-- /.navbar__logo -->
-        <div class="navbar__info">
-          <div class="navbar__contacts">
-            <span class="navbar__address">Tbilisi, Griboedov str. 3, </span>
-            <a href="tel:+7(495)42-251-31" class="navbar__phone">+995 599 00 12 34</a>
-          </div>
-          <!-- /.navbar__contacts -->
-          <!-- /.button navbar__button -->
+        <div class="navbar-info">
+            <div class="navbar-contacts">
+                <span class="navbar-contacts__name">Тбилиси, ул. Грибоедова 3</span>
+                <a href="tel:+995571084016" class="navbar-contacts__text">+995 571 084 016</a>
+            </div>
         </div>
-        <!-- /.navbar__info -->
-      </div>
-      <!-- /.navbar-block -->
     </div>
-    <!-- /.container -->
-  </nav>
-  <!-- /.navbar -->
+</div>
+<!-- /.navbar -->
 
-  <main>
-    <section class="hero">
-      <div class="container">
-        <div class="hero-block">
-          <div class="hero-text">
-            <h1 class="hero-text__title">Юридические услуги для иностранных граждан и компаний в Грузии и ОАЭ
-            </h1>
-            <span class="hero-text__subtitle">помощь с документами и полное сопровождение
+
+<main>
+    <section class="hero" id="main">
+        <div class="container">
+            <div class="hero-block">
+                <div class="hero-text">
+                    <h1 class="hero-text__title">Юридические услуги для иностранных граждан и компаний в Грузии и ОАЭ
+                    </h1>
+                    <span class="hero-text__subtitle">помощь с документами и полное сопровождение
             </span>
-            <ul class="hero-list">
-              <li class="hero-list__item">
-                <div class="hero-list__image">
-                 <a href="tel:+995599006355"><img src="src/img/call.png" alt="call">Позвонить</a>
+                    <ul class="hero-list">
+                        <li class="hero-list__item">
+                            <div class="hero-list__image">
+                                <a href="tel:+995571084016"><img src="src/img/call.png" alt="call">Позвонить</a>
+                            </div>
+                            <!--                 <span class="hero-list__text">Позвонить</span> -->
+                        </li>
+                        <li class="hero-list__item">
+                            <div class="hero-list__image">
+                                <a href="https://t.me/DNDconsulting" target="blank"><img src="src/img/telegram.png"
+                                                                                         alt="telegram">Написать нам в
+                                    Тelegram</a>
+                            </div>
+                            <!--                 <span class="hero-list__text">Написать нам в Тelegram</span> -->
+                        </li>
+                        <li class="hero-list__item">
+                            <div class="hero-list__image">
+                                <a href="https://wa.me/995571084016" target="blank"><img
+                                        src="src/img/whatsapp_PNG95154.png" alt="whatsapp">Написать нам в WhatsApp</a>
+                            </div>
+                            <!--                 <span class="hero-list__text">Написать нам в WhatsApp</span> -->
+                        </li>
+                    </ul>
                 </div>
-<!--                 <span class="hero-list__text">Позвонить</span> -->
-              </li>
-              <li class="hero-list__item">
-                <div class="hero-list__image">
-                 <a href="https://t.me/i_drg" target="blank"><img src="src/img/telegram.png" alt="telegram">Написать нам в Тelegram</a>
+                <!-- /.hero-text -->
+                <div class="hero-image">
+                    <img class="img" src="src/img/geoflag.png" alt="Flag">
+                    <!-- <img src="src/img/room.png" alt="План квартиры"> -->
                 </div>
-<!--                 <span class="hero-list__text">Написать нам в Тelegram</span> -->
-              </li>
-              <li class="hero-list__item">
-                <div class="hero-list__image">
-                 <a href="https://wa.me/995599006355" target="blank"><img src="src/img/whatsapp_PNG95154.png" alt="whatsapp">Написать нам в WhatsApp</a>
-                </div>
-<!--                 <span class="hero-list__text">Написать нам в WhatsApp</span> -->
-              </li>
-            </ul>
-          </div>
-          <!-- /.hero-text -->
-          <div class="hero-image">
-            <img class="img" src="src/img/geoflag.png" alt="Flag">
-            <!-- <img src="src/img/room.png" alt="План квартиры"> -->
-          </div>
-          <!-- /.hero-image -->
+                <!-- /.hero-image -->
+            </div>
+            <!-- /.hero-block -->
         </div>
-        <!-- /.hero-block -->
-      </div>
-      <!-- /.container -->
+        <!-- /.container -->
     </section>
     <!-- /.hero -->
 
-    <section class="section steps">
-      <div class="container">
-        <h2 class="section-title steps__title">Виды услуг
-        </h2>
-        <span class="section-subtitle steps__subtitle">Наши специалисты проконсультируют Вас
+    <section class="section steps" id="service">
+        <div class="container">
+            <h2 class="section-title steps__title">Виды услуг
+            </h2>
+            <span class="section-subtitle steps__subtitle">Наши специалисты проконсультируют Вас
         </span>
-        <div class="steps-block">
-          <div class="step">
-            <div class="step__image">
-              <img src="src/img/steps/passport.png" alt="ВНЖ">
-            </div>
-            <!-- /.step__image -->
-            <p class="step__text"><strong>Получение ВНЖ</strong>
-              <br>
-              <br>
-              Если вы решили приобрести недвижимость или получить вид на жительство в Грузии и не знакомы с тонкостями законодательства страны – лучше обратитесь к профессионалам. Мы поможем вам собрать все необходимые документы для оформления.
-            </p>
-            <!-- /.step__text -->
-          </div>
-          <!-- /.step -->
-          <div class="step">
-            <div class="step__image">
-              <img src="src/img/steps/card.png" alt="Банк">
-            </div>
-            <!-- /.step__image -->
-            <p class="step__text"><strong>Открытие банковского счета</strong>
-              <br>
-              <br>
+            <div class="steps-block">
+                <div class="step">
+                    <div class="step__image">
+                        <img src="src/img/steps/passport.png" alt="ВНЖ">
+                    </div>
+                    <!-- /.step__image -->
 
-              Любой компании, которая выходит на рынок Грузии, для ведения полноценной предпринимательской деятельности необходимо открыть счет в грузинском банке, чтобы получить доступ ко всем необходимым инструментам. Мы поможем вам открыть счет в грузинском банке.
-            </p>
-            <!-- /.step__text -->
-          </div>
-          <!-- /.step -->
-          <div class="step">
-            <div class="step__image">
-              <img src="src/img/steps/certificate.png" alt="Нотариус">
-            </div>
-            <!-- /.step__image -->
-            <p class="step__text"><strong>Нотариальные переводы любых документов</strong>
-              <br>
-              <br>
-              Быстро и профессионально лицензированными переводчиками переводим и заверяем необходимые документы
-            </p>
-            <!-- /.step__text -->
-          </div>
-          <!-- /.step -->
-          <div class="step">
-            <div class="step__image">
-              <img src="src/img/steps/banking.png" alt="Налоговая">
-            </div>
-            <!-- /.step__image -->
-            <p class="step__text"><strong>Регистрация ИП/ООО с налогом 1% в год (возможно без присутствия клиента)</strong>
 
-              <br>
-              <br>
-              Мы поможем вам открыть компанию в Тбилиси или в любом другом городе Грузии. В рамках услуги по регистрации бизнеса специалисты нашей компании подготовят, переведут и заверят все необходимые документы для Дома Юстиции, налоговой службы.
-            </p>
-            <!-- /.step__text -->
-          </div>
-          <!-- /.step -->
-          <div class="step">
-            <div class="step__image">
-              <img src="src/img/steps/accounting.png" alt="Бухгалтерия">
-            </div>
-            <!-- /.step__image -->
-            <p class="step__text"><strong>Бухгалтерсвкое и аудиторское сопровождение</strong>
-              <br>
-              <br>
-               Наши квалифицированные бухгалтера ежемесячно вносят все документы за Вас в облачное хранилище, доступное так же в режиме онлайн.
-            </p>
-            <!-- /.step__text -->
-          </div>
-            <div class="step">
-            <div class="step__image">
-              <img src="src/img/steps/accounting.png" alt="Бухгалтерия">
-            </div>
-            <!-- /.step__image -->
-            <p class="step__text"><strong>Льготный IT-бизнес в Грузии</strong>
-              <br>
-              <br>
-               Ваша IT-компания после получения статуса виртуальной зоны Грузии будет полностью освобождена от НДС и налога на прибыль. Мы окажем вам услугу под ключ — от открытия компании до получения необходимого сертификата.
-            </p>
-            <!-- /.step__text -->
-          </div>
-            <div class="step">
-            <div class="step__image">
-              <img src="src/img/steps/accounting.png" alt="Недвижимость">
-            </div>
-            <!-- /.step__image -->
-            <p class="step__text"><strong>Сделки с недвижимостью</strong>
-              <br>
-              <br>
-               При покупке или продаже недвижимости наши специалисты проконсультируют, подготовят заранее все необходимые документы и сопроводят Вас в требуемые гос учреждения.
-            </p>
-            <!-- /.step__text -->
-          </div>
+                    <button class="btn btn-info" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#multiCollapseExample1" aria-expanded="false"
+                            aria-controls="multiCollapseExample1">Получение ВНЖ
+                    </button>
 
-            <div class="step">
-            <div class="step__image">
-              <img src="src/img/steps/accounting.png" alt="Недвижимость">
-            </div>
-            <!-- /.step__image -->
-            <p class="step__text"><strong>Услуги в ОАЭ</strong>
-              <br>
-              <br>
-               Все вышеперечисленные услуги наша компания вместе с партнерами может оказать в ОАЭ.
-            </p>
-            <!-- /.step__text -->
-          </div>
+                    <div class="row">
+                        <div class="col" style="min-height: 20px;">
+                            <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                <div class="card card-body">
+                                    <strong>Основание 1.</strong> Бизнес в Грузии
 
-            <div class="step">
-            <div class="step__image">
-              <img src="src/img/steps/accounting.png" alt="Недвижимость">
-            </div>
-            <!-- /.step__image -->
-            <p class="step__text"><strong>Все услуги под ключ</strong>
-              <br>
-              <br>
-               Наша компания оказывает услуги под ключ. Помощь с подбором жилья для Вас и вашей семьи, встречей в Грузии и размещением в апартаментах, сопровождение по всем требуемым инстанциям со специалистом. С учетом всех Ваших пожеланий.
-            </p>
-            <!-- /.step__text -->
-          </div>
+                                    Вид ВНЖ: краткосрочный (как правило, 6 месяцев — 1 год)
+                                    Порядок и сроки/стоимость:
+                                    Регистрация ИП в Доме юстиции + постановка на налоговый учет + открытие счета в
+                                    Банке:
+                                    1/2 дня/от $100
+                                    Обеспечение у компании (ИП) оборота от 50.000 лари (18.000 USD), подтвержденного
+                                    справкой Службы доходов
+                                    Получение ВНЖ:
+                                    30 дней/от $300;
+                                    20 дней/от $400;
+                                    10 дней/от $500;
+                                    Получение бинадробы (прописка и ID):
+                                    10 дней/бесплатно <br>
+                                    <strong>Основание 2.</strong> Трудовые отношения с грузинской компанией (учредители
+                                    и
+                                    директор компании могут быть НЕ гражданами Грузии. Лица, запрашивающие ВНЖ, могут
+                                    быть
+                                    директорами или учредителями компании, но также обязательно должны работать в
+                                    компании
+                                    по трудовому договору)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-          <!-- /.step -->
+                    <p class="step__text">
+
+                        Если вы решили зарегистрировать бизнес и получить вид на жительство в Грузии, но не знакомы с
+                        тонкостями законодательства страны – лучше обратитесь к профессионалам. Мы поможем вам собрать
+                        все необходимые документы для оформления.
+                    </p>
+                    <!-- /.step__text -->
+                </div>
+                <!-- /.step -->
+                <div class="step">
+                    <div class="step__image">
+                        <img src="src/img/steps/card.png" alt="Банк">
+                    </div>
+                    <!-- /.step__image -->
+
+                    <button class="btn btn-info" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#multiCollapseExample2" aria-expanded="false"
+                            aria-controls="multiCollapseExample2">Открытие банковского счета
+                    </button>
+
+
+                    <div class="row">
+                        <div class="col" style="min-height: 20px;">
+                            <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                <div class="card card-body">
+                                    Регистрация бизнеса в Грузии возможна в следующих формах:
+                                    <ul>
+                                        <li>Индивидуальный предприниматель (ИП);</li>
+                                        <li> Некоммерческая организация (НКО);</li>
+                                        <li> Акционерное общество (АО);</li>
+                                        <li> и другие формы.</li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="step__text">
+
+                        Любой компании, которая выходит на рынок Грузии, для ведения полноценной
+                        предпринимательской
+                        деятельности необходимо открыть счет в грузинском банке, чтобы получить доступ ко
+                        всем
+                        необходимым инструментам. Мы поможем вам открыть счет в грузинском банке.
+                    </p>
+                    <!-- /.step__text -->
+                </div>
+                <!-- /.step -->
+                <div class="step">
+                    <div class="step__image">
+                        <img src="src/img/steps/certificate.png" alt="Нотариус">
+                    </div>
+                    <!-- /.step__image -->
+                    <button class="btn btn-info" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#multiCollapseExample3" aria-expanded="false"
+                            aria-controls="multiCollapseExample3">Нотариальные переводы любых документов
+                    </button>
+
+                    <div class="row">
+                        <div class="col" style="min-height: 20px;">
+                            <div class="collapse multi-collapse" id="multiCollapseExample3">
+                                <div class="card card-body">
+                                    <ul>
+                                        <li>Составление заявлений, справок, доверенностей</li>
+                                        <li>Согласие на выезд ребёнка</li>
+                                        <li>Перевод и заверение паспорта</li>
+                                    </ul>
+
+                                    При комплексном оказании услуг с документами с Вашего согласия мы выполним
+                                    необходимые процедуры без вашего непосредственного участия на основании
+                                    доверенности
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="step__text">
+                        Быстро и профессионально лицензированными переводчиками переводим и заверяем
+                        необходимые
+                        документы
+                    </p>
+                    <!-- /.step__text -->
+                </div>
+                <!-- /.step -->
+                <div class="step">
+                    <div class="step__image">
+                        <img src="src/img/steps/banking.png" alt="Налоговая">
+                    </div>
+                    <!-- /.step__image -->
+
+                    <button class="btn btn-info" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#multiCollapseExample4" aria-expanded="false"
+                            aria-controls="multiCollapseExample4">Регистрация ИП/ООО с налогом 1% в год (возможно без
+                        присутствия
+                        клиента)
+                    </button>
+
+                    <div class="row">
+                        <div class="col" style="min-height: 20px;">
+                            <div class="collapse multi-collapse" id="multiCollapseExample4">
+                                <div class="card card-body">
+                                    Открыть ИП с малым статусом в Тбилиси или малый бизнес в Батуми выгодно так как
+                                    появляется возможность сократить налоговые расходы благодаря тому, что если ваш
+                                    годовой оборот будет меньше 30 000 лари (9 000 долларов) в год, ставка будет 0%. Но
+                                    владельцы бизнеса с малым статусом должны ежемесячно подавать декларации о доходах и
+                                    расходах. Либо льготная ставка 1% если Ваш оборот больше 30 000 лари, но меньше 500
+                                    000 лари в год.
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="step__text">
+
+                        Мы поможем вам открыть компанию в Тбилиси или в любом другом городе Грузии. В
+                        рамках услуги по
+                        регистрации бизнеса специалисты нашей компании подготовят, переведут и заверят
+                        все необходимые
+                        документы для Дома Юстиции, налоговой службы.
+                    </p>
+                    <!-- /.step__text -->
+                </div>
+                <!-- /.step -->
+                <div class="step">
+                    <div class="step__image">
+                        <img src="src/img/steps/accounting.png" alt="Бухгалтерия">
+                    </div>
+                    <!-- /.step__image -->
+
+                    <button class="btn btn-info" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#multiCollapseExample5" aria-expanded="false"
+                            aria-controls="multiCollapseExample5">Бухгалтерсвкое и аудиторское сопровождение
+                    </button>
+
+                    <div class="row">
+                        <div class="col" style="min-height: 20px;">
+                            <div class="collapse multi-collapse" id="multiCollapseExample5">
+                                <div class="card card-body">
+                                    Главная наша цель ‒ подбор максимально удобной формы
+                                    ведения бизнеса ‒ от классических решений (индивидуального предпринимателя или ООО)
+                                    до льготных форм (получения статуса виртуальной зоны или регистрации компании в
+                                    свободной индустриальной зоне).
+                                    Квалифицированные экономисты возьмут на себя всю бухгалтерию и отчетность, отправлят
+                                    ее в налоговую, соблюдая сроки.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="step__text">
+                        Наши квалифицированные бухгалтера ежемесячно вносят все документы за Вас в
+                        облачное хранилище,
+                        доступное так же в режиме онлайн.
+                    </p>
+                    <!-- /.step__text -->
+                </div>
+                <div class="step">
+                    <div class="step__image">
+                        <img src="src/img/steps/percent.png" alt="IT">
+                    </div>
+                    <!-- /.step__image -->
+
+                    <button class="btn btn-info" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#multiCollapseExample6" aria-expanded="false"
+                            aria-controls="multiCollapseExample6">Льготный IT-бизнес в Грузии
+                    </button>
+
+                    <div class="row">
+                        <div class="col" style="min-height: 20px;">
+                            <div class="collapse multi-collapse" id="multiCollapseExample6">
+                                <div class="card card-body">
+                                    В 2021 году Налоговая инспекция Грузии внесла корректировки в трактовку Статьи о
+                                    деятельность в виртуальной зоне и среди обязательных требований к соответствию
+                                    статусу Виртуальной зоны выдвигается ‒ наличие сабстенса (присутствия) на территории
+                                    страны, а именно: административные расходы, например, аренда офиса, в котором
+                                    работают сотрудники компании, или наличие в штате специалистов из числа граждан
+                                    Грузии. Наши юристы и экономисты помогут правильно заполнить документы и получить
+                                    данный статус. По сути ваша компания после получения статуса виртуальной зоны Грузии
+                                    будет полностью освобождена от НДС и налога на прибыль.
+
+                                    Фактически резидент виртуальной зоны платит только:
+
+                                    5% налога с выведенных дивидендов и подоходный налог в случае выплаты заработных
+                                    плат
+
+                                    В связи с этим можно сказать, что подобный налоговый режим очень удобен для тех
+                                    разработчиков ІТ продуктов, которые сотрудничают с различными международными
+                                    клиентами и заказчиками, которые находятся в разных уголках мира.
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="step__text">
+
+                        Ваша IT-компания после получения статуса виртуальной зоны Грузии будет полностью
+                        освобождена от
+                        НДС и налога на прибыль. Мы окажем вам услугу под ключ — от открытия компании до
+                        получения
+                        необходимого сертификата.
+                    </p>
+                    <!-- /.step__text -->
+                </div>
+                <div class="step">
+                    <div class="step__image">
+                        <img src="src/img/steps/house.png" alt="Недвижимость">
+                    </div>
+                    <!-- /.step__image -->
+                    <p class="step__text"><strong>Сделки с недвижимостью</strong>
+                        <br>
+                        <br>
+                        При покупке или продаже недвижимости наши специалисты проконсультируют,
+                        подготовят заранее все
+                        необходимые документы и сопроводят Вас в требуемые гос учреждения.
+                    </p>
+                    <!-- /.step__text -->
+                </div>
+
+                <div class="step">
+                    <div class="step__image">
+                        <img src="src/img/steps/uae.png" alt="ОАЭ">
+                    </div>
+                    <!-- /.step__image -->
+                    <p class="step__text"><strong>Услуги в ОАЭ</strong>
+                        <br>
+                        <br>
+                        Все вышеперечисленные услуги наша компания вместе с партнерами может оказать в
+                        ОАЭ.
+                    </p>
+                    <!-- /.step__text -->
+                </div>
+
+                <div class="step">
+                    <div class="step__image">
+                        <img src="src/img/steps/star.png" alt="Под ключ">
+                    </div>
+                    <!-- /.step__image -->
+                    <p class="step__text"><strong>Все услуги под ключ</strong>
+                        <br>
+                        <br>
+                        Наша компания оказывает услуги под ключ. Помощь с подбором жилья для Вас и вашей
+                        семьи, встречей
+                        в Грузии и размещением в апартаментах, сопровождение по всем требуемым
+                        инстанциям со
+                        специалистом. С учетом всех Ваших пожеланий.
+                    </p>
+                    <!-- /.step__text -->
+                </div>
+
+                <!-- /.step -->
+            </div>
+            <!-- /.steps-block -->
         </div>
-        <!-- /.steps-block -->
-      </div>
     </section>
 
-  </main>
+    <section class="section licenses" id="licenses">
+        <div class="container">
+            <h2 class="section-title steps__title">Лицензии</h2>
+            <span class="section-subtitle steps__subtitle">Услуги предоставляют дипломированные и лицензированные специалисты</span>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./src/img/diploms/3319047.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./src/img/diploms/3319047.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./src/img/diploms/15530715.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
 
-  <!-- <script src="/src/js/main.js"></script> -->
+</main>
 
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-  <script src="src/js/modal.js"></script>
-  <!-- <script src="src/js/main.js"></script> -->
-  <script src="src/js/slick.min.js"></script>
+<!-- <script src="/src/js/main.js"></script> -->
 
-  <script src="src/js/wow.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-  <script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+<script src="src/js/slick.min.js"></script>
+
+<script src="src/js/wow.min.js"></script>
+
+<script>
     /* инициализаяция WOW.js */
     new WOW().init();
-  </script>
 
-  <script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+<script>
     /* Скрипт слайдера */
     $(document).ready(function () {
       $('.slider').slick({
@@ -255,7 +512,113 @@
         ]
       });
     });
-  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
 
 </body>
 
