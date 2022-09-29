@@ -89,13 +89,17 @@
       <screen x="58" y="27" width="1862" height="1053" />
     </state>
     <state x="645" y="381" key="com.intellij.ide.util.TipDialog/58.27.1862.1053@58.27.1862.1053" timestamp="1663245397242" />
+    <state x="599" y="150" width="770" height="813" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1664439688572">
+      <screen x="58" y="27" width="1862" height="1053" />
+    </state>
+    <state x="599" y="150" width="770" height="813" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/58.27.1862.1053@58.27.1862.1053" timestamp="1664439688572" />
     <state x="813" y="421" width="351" height="272" key="git4idea.rebase.GitRebaseDialog" timestamp="1663246022924">
       <screen x="58" y="27" width="1862" height="1053" />
     </state>
     <state x="813" y="421" width="351" height="272" key="git4idea.rebase.GitRebaseDialog/58.27.1862.1053@58.27.1862.1053" timestamp="1663246022924" />
-    <state x="652" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1663251456650">
+    <state x="652" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1664445003441">
       <screen x="58" y="27" width="1862" height="1053" />
     </state>
-    <state x="652" y="259" width="672" height="678" key="search.everywhere.popup/58.27.1862.1053@58.27.1862.1053" timestamp="1663251456650" />
+    <state x="652" y="259" width="672" height="678" key="search.everywhere.popup/58.27.1862.1053@58.27.1862.1053" timestamp="1664445003441" />
   </component>
 </project>

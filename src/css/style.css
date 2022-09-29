@@ -28,13 +28,6 @@ h1 {
   }
 }
 
-@media (max-width: 768px) {
-  .container {
-    max-width: 580px;
-    width: 90%;
-  }
-}
-
 .button {
   border-radius: 10px;
   background-color: #019145;
@@ -54,7 +47,7 @@ h1 {
 .section {
   padding: 90px;
   text-align: center;
-  background-color: snow;
+  background-color: ivory;
 
 }
 
@@ -109,7 +102,8 @@ h1 {
 }
 
 .navbar-contacts {
-  display: inline-grid;
+  display: grid;
+  align-items: baseline;
   color: black;
 }
 
@@ -168,6 +162,7 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content:space-between;
   height: 100%;
   padding-top: 30px;
 }
@@ -230,6 +225,11 @@ h1 {
 
 .hero-list__text {
   max-width: 300px;
+}
+
+.gmap {
+    display: flex;
+    align-items: center;
 }
 
 @media (max-width: 1200px) {
@@ -336,16 +336,6 @@ h1 {
   }
 }
 
-@media (max-width: 768px) {
-  .offer {
-    background: #fff;
-  }
-  .offer-block {
-    width: 100%;
-    padding-right: 0;
-  }
-}
-
 
 .step {
   -ms-flex-preferred-size: 20%;
@@ -415,6 +405,8 @@ h1 {
   background: #cad9c7;
 }
 
+.company {background: cornsilk;}
+
 @media (max-width: 768px) {
   .step {
     margin-bottom: 30px;
@@ -428,5 +420,11 @@ h1 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+
+  .navbar-contacts {
+  display: flex;
+  align-items: baseline;
+  color: black;
+}
 }
 
