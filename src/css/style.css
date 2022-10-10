@@ -353,7 +353,7 @@ body {
     position: initial !important;
 }
 
-.carousel, .carousel-indicators, .carousel-inner, .carousel-item {
+.carousel, .carousel-indicators, .carousel-inner, .carousel-item,  {
     position: initial !important;
 }
 
