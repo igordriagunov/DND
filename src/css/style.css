@@ -349,6 +349,14 @@ body {
   background: #cad9c7;
 }
 
+.card {
+    position: initial !important;
+}
+
+.carousel, .carousel-indicators, .carousel-inner, .carousel-item {
+    position: initial !important;
+}
+
 .company {background: cornsilk;}
 
 @media (max-width: 767px){
