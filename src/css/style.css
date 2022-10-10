@@ -11,9 +11,6 @@ body {
   margin: 0;
 }
 
-h1 {
-    padding-left: 5px;
-}
 
 .container {
   width: 1170px;
@@ -25,6 +22,22 @@ h1 {
   .container {
     width: 760px;
     margin-top: 5px;
+  }
+  .hero-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hero-list {
+    margin-bottom: 44px;
+  }
+  .hero-text {
+    padding-right: 10px;
+  }
+  .gmap {
+    margin-top: 50px;
+    display: inline-block !important;
   }
 }
 
@@ -45,9 +58,9 @@ h1 {
 }
 
 .section {
-  padding: 90px;
+  padding: 30px;
   text-align: center;
-  background-color: ivory;
+  background-color: snow;
 
 }
 
@@ -74,7 +87,7 @@ h1 {
 .navbar {
   overflow: hidden;
   background-color: snow;
-  position: fixed; /* Set the navbar to fixed position */
+  position: sticky !important; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
 }
@@ -91,7 +104,6 @@ h1 {
 
 
 .navbar-block {
-
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -232,22 +244,7 @@ h1 {
     align-items: center;
 }
 
-@media (max-width: 1200px) {
-  .hero-block {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .hero-list {
-    margin-bottom: 44px;
-  }
-  .hero-text {
-    padding-right: 10px;
-  }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .hero-text__title {
     font-size: 24px;
     line-height: 1;
@@ -256,7 +253,16 @@ h1 {
   .hero-text__subtitle {
     font-size: 16px;
   }
+  .gmap{
+    display: inline-block;
+  }
+
+    iframe {
+      width:350px;
+      height:300px;
+  }
 }
+
 
 @font-face {
   font-family: 'Museo Sans Light';
@@ -274,74 +280,12 @@ h1 {
   font-style: normal;
 }
 
-.offer {
-  background: url("../img/offer-bg.png") no-repeat;
-  background-position: center right;
-  background-size: contain;
-  position: relative;
-}
-
-.offer:before {
-  content: '';
-  width: 50%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #fff;
-}
-
-.offer-block {
-  width: 50%;
-  padding-right: 90px;
-  position: relative;
-}
-
-.offer__title {
-  min-width: 360px;
-  line-height: 35px;
-  margin-bottom: 24px;
-  text-align: left;
-}
-
-.offer__subtitle {
-  max-width: 250px;
-  margin-bottom: 30px;
-}
-
-.offer__input {
-  margin-bottom: 30px;
-  width: 225px;
-}
-
-.offer__input:first-child {
-  margin-right: 10px;
-}
-
-.offer__button {
-  width: 100%;
-  min-height: 70px;
-}
-
-@media (max-width: 1300px) {
-  .offer {
-    background-size: cover;
-  }
-  .offer__input {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  .offer__button {
-    font-size: 13px;
-  }
-}
-
 
 .step {
   -ms-flex-preferred-size: 20%;
       flex-basis: 33%;
   text-align: center;
-  position: relative;
+  position: initial;
   margin-bottom: 50px;
 }
 
@@ -407,7 +351,7 @@ h1 {
 
 .company {background: cornsilk;}
 
-@media (max-width: 768px) {
+@media (max-width: 767px){
   .step {
     margin-bottom: 30px;
   }
@@ -426,10 +370,16 @@ h1 {
   align-items: baseline;
   color: black;
 }
+    .navbar-info{
+      display:none;}
+
+
 }
 
 @media (max-width: 400px) {
-  .gmap {
-    display: none;
+    iframe {
+      width:200px;
+      height:250px;
   }
+}
 
