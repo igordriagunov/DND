@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f2317f0-b89c-4500-a90e-693a2c1dd112" name="Default Changelist" comment="" />
+    <list default="true" id="6f2317f0-b89c-4500-a90e-693a2c1dd112" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +73,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="698" y="358" width="572" height="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1665759127013">
+      <screen x="58" y="27" width="1862" height="1053" />
+    </state>
+    <state x="698" y="358" width="572" height="397" key="#com.intellij.fileTypes.FileTypeChooser/58.27.1862.1053@58.27.1862.1053" timestamp="1665759127013" />
     <state x="158" y="127" width="1662" height="853" key="DiffContextDialog" timestamp="1663251832739">
       <screen x="58" y="27" width="1862" height="1053" />
     </state>
@@ -85,10 +93,10 @@
       <screen x="58" y="27" width="1862" height="1053" />
     </state>
     <state x="584" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/58.27.1862.1053@58.27.1862.1053" timestamp="1663251658209" />
-    <state x="645" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1663245397242">
+    <state x="645" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1666212639302">
       <screen x="58" y="27" width="1862" height="1053" />
     </state>
-    <state x="645" y="381" key="com.intellij.ide.util.TipDialog/58.27.1862.1053@58.27.1862.1053" timestamp="1663245397242" />
+    <state x="645" y="381" key="com.intellij.ide.util.TipDialog/58.27.1862.1053@58.27.1862.1053" timestamp="1666212639302" />
     <state x="599" y="150" width="770" height="813" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1664439688572">
       <screen x="58" y="27" width="1862" height="1053" />
     </state>
